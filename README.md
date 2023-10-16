@@ -4,7 +4,15 @@ Ini adalah proyek Cordova yang menunjukkan cara memulai dengan pengembangan apli
 
 ## Instalasi Dependensi
 
-Sebelum Anda dapat memulai pengembangan dengan proyek ini, pastikan Anda telah menginstal dependensi berikut:
+Sebelum Anda memulai pengembangan dengan proyek ini, pastikan Anda telah menginstal atau meng-upgrade perangkat lunak berikut ke versi yang sesuai:
+
+- **Node.js**: Versi 18.7.1
+- **Java Development Kit (JDK)**: Versi 11.0.20
+- **Android**: Versi 13 API 33
+- **Cordova**: Versi 12
+
+Pastikan Anda telah menginstal versi perangkat lunak yang kompatibel untuk menghindari masalah kompatibilitas.
+
 
 ### Node.js dan npm
 
