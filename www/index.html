@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Mobile</title>
+    <link rel="stylesheet" type="text/css" href="css/onsenui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/onsen-css-components.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/onsenui.min.js"></script>
+</head>
+<body>
+    <ons-navigator swipeable id="myNavigator" page="pages/beranda.html">
+        <ons-page>
+            <ons-tabbar swipeable position="bottom">
+              <ons-tab page="pages/beranda.html" label="Homepage" icon="ion-ios-home, material:md-home" active>
+              </ons-tab>
+              <ons-tab page="pages/setting.html" label="Setting" icon="md-settings" active-icon="md-settings">
+              </ons-tab>
+            </ons-tabbar>
+        </ons-page>
+    </ons-navigator>
+</body>
+</html>

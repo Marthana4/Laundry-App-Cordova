@@ -1,0 +1,65 @@
+/* Gaya CSS untuk elemen beranda */
+#beranda {
+    text-align: center;
+}
+
+/* Gaya CSS untuk kolom nama */
+#nama-col {
+    width: 50%;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#ikon-col {
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+}
+
+/* Gaya CSS untuk ikon notifikasi dan profil */
+.ikon {
+    border-radius: 8px;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/* Gaya CSS untuk judul promo */
+#promo-judul {
+    margin: 0;
+    text-align: left;
+}
+
+/* Gaya CSS untuk isi kartu promo */
+.promo-content {
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+/* Gaya CSS untuk kode promo dan ikon Salin/Copy */
+.kode-promo {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.kode-promo .kode {
+    color: #038CDC;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.kode-promo .ikon-salin {
+    color: #038CDC;
+    margin-left: 8px;
+    margin-top: 5px;
+}
